@@ -55,4 +55,3 @@ if __name__=='__main__':
     wifissid = parse_ssid(result)
     credentials = get_pwd(wifissid)
     display(credentials,filename)
-          
