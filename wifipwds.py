@@ -1,3 +1,6 @@
+# This script dumps all wifi passwords saved in windows computer.
+# Tested on: Windows 10 
+
 from prettytable import PrettyTable
 import os
 
@@ -52,9 +55,4 @@ if __name__=='__main__':
     wifissid = parse_ssid(result)
     credentials = get_pwd(wifissid)
     display(credentials,filename)
-
-    
-
-
-    
-    
+          
