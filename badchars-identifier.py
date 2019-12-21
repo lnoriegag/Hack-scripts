@@ -32,8 +32,4 @@ for line in f.readlines():
 				goodchars.append(hex(int(wrapped[i],16)))
 				tmp = goodchars[len(goodchars)-1]
  
-
 print "[+] Badchars found: "+', '.join(Diff(goodchars,hexlist))
-
-
-	
